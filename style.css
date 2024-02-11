@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bilbo&display=swap');
+.bodyHistory {
+    font-family: 'Protest Riot', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.history {
+    height: 100vh;
+    display: flex;
+    position: relative;
+    background-color: rgba(0,0,0,0.7);
+
+}
+
+header span {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 4rem;
+    align-self: center;
+    justify-self: center;
+    color: white;
+}
+
+h1 {
+    margin-bottom: 1rem;
+    letter-spacing: 3px;
+
+}
+
+.text-info {
+    display: inline-block;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: white;
+    padding: 0rem 1rem;
+    font-size: 1.2rem;
+}
+
+.text-info a {
+    text-decoration: none;
+    background-color: white;
+    color:black;
+}
+
+.back-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    min-width: 100%; 
+    min-height: 100%;
+    object-fit: fill;
+} 
+
+
+
+/* @media (min-aspect-ratio: 16/9){
+    .back-video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-aspect-ratio: 16/9){
+    .back-video {
+        width: auto;
+        height: 100%;
+    }
+} */
+
+article {
+    height: 100vh;
+
+}
+
+article h1 {
+    text-align: center;
+    font-size: 2rem;
+    padding: 0.5rem;
+
+}
+
